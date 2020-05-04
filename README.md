@@ -10,7 +10,8 @@ git clone git@github.com:cadermino/laravel-crud.git
 ```
 - Run the docker compose command
 ```shell
-run docker-compose up
+docker-compose up
+docker-compose exec myapp php artisan route:list
 ```
 
 - Put this url in your browser
