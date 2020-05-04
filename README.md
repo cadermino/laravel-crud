@@ -30,9 +30,7 @@ docker-compose exec myapp cp .env.example .env
 docker-compose exec myapp php artisan key:generate
 ```
 - Put this url in your browser
-```shell
 http://localhost:3000/customers
-```
 
 ## Demo
 http://54.152.92.105:3000/customers
