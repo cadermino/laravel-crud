@@ -2,6 +2,11 @@
 
 Project based in [Bitnami Laravel docker image](https://hub.docker.com/r/bitnami/laravel).
 
+## Requisites
+
+- Docker
+- Docker-compose
+
 ## Installation
 
 - First clone the repository
