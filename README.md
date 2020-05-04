@@ -26,3 +26,5 @@ docker-compose exec myapp php artisan key:generate
 http://localhost:3000/customers
 ```
 
+## Demo
+http://54.152.92.105:3000/customers
