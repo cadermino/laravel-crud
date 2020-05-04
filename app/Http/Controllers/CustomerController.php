@@ -122,6 +122,6 @@ class CustomerController extends Controller
         $customer = Customer::find($id);
         $customer->delete();
 
-        return redirect('/customers')->with('success', 'Customer deleted!');
+        return redirect('/customers')->with('success', 'Cliente eliminado!');
     }
 }
