@@ -5,7 +5,7 @@ Project based in [Bitnami Laravel docker image](https://hub.docker.com/r/bitnami
 ## Requisites
 
 - Docker
-- Docker-compose
+- Docker-compose >= 1.7.0
 
 ## Installation
 
@@ -17,7 +17,7 @@ git clone git@github.com:cadermino/laravel-crud.git
 ```shell
 cd laravel-crud
 ```
-- Run the docker compose command
+- Run the docker compose command and wait installation to finish
 ```shell
 docker-compose up
 ```
