@@ -11,13 +11,18 @@ git clone git@github.com:cadermino/laravel-crud.git
 - Run the docker compose command
 ```shell
 docker-compose up
-docker-compose exec myapp php artisan route:list
+```
+- Copy .env file
+```shell
+docker-compose exec myapp cp .env.example .env
+```
+- Generate app key
+```shell
+docker-compose exec myapp php artisan key:generate
 ```
 
 - Put this url in your browser
 ```shell
 http://localhost:3000/customers
 ```
-## Demo
-[Demo](https://hub.docker.com/r/bitnami/laravel).
 
