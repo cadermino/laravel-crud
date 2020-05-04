@@ -13,6 +13,10 @@ Project based in [Bitnami Laravel docker image](https://hub.docker.com/r/bitnami
 ```shell
 git clone git@github.com:cadermino/laravel-crud.git
 ```
+- Go to directory
+```shell
+cd laravel-crud
+```
 - Run the docker compose command
 ```shell
 docker-compose up
@@ -25,7 +29,6 @@ docker-compose exec myapp cp .env.example .env
 ```shell
 docker-compose exec myapp php artisan key:generate
 ```
-
 - Put this url in your browser
 ```shell
 http://localhost:3000/customers
